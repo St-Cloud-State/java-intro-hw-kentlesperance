@@ -4,7 +4,8 @@ public class Person {
     private String lastName;
     private String id; //id is kept unique by the data class
 
-    public Person(String firstName, String lastName, String id) {
+    public Person(String firstName, String lastName, String id) 
+    {
         this.firstName = firstName;
         this.lastName = lastName;
         this.id = id;
@@ -26,7 +27,8 @@ public class Person {
         return id;
     }
 
-    public String toString() {
+    public String toString() 
+    {
         return firstName + " " + lastName + " , ID: " + id;
     }
 }
